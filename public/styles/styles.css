@@ -1,0 +1,325 @@
+/*Universal Styles*/
+html {
+    font-family: "Archivo", sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background: #252020;
+}
+
+/* Section */
+.section {
+    padding: 3rem 10rem;
+}
+
+.section--yellow {
+    background: #ffd600;
+}
+
+.section--black {
+    background: #252020;
+}
+
+@media only screen and (min-width: 1920px) {
+    .section {
+        width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section {
+        padding: 1rem;
+    }
+}
+
+/* Headings */
+.section__heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.section__heading--yellow {
+    color: #ffd600;
+}
+
+.section__heading--black {
+    color: #252020;
+}
+
+/* LOGO */
+.logo {
+    width: 100px;
+}
+
+.logo--big {
+    width: 1024px;
+}
+
+/* NAV */
+.nav {
+    font-family: "BuenoNeue", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav__item {
+    display: inline;
+    margin: 0 1rem;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav__link-icon {
+    margin: auto 0;
+    width: 1.5rem;
+    display: none;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    background-color: #252020;
+    height: 3rem;
+}
+
+.header__content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+@media only screen and (min-width: 1920px) {
+    .header__content {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .header {
+        height: 2rem;
+    }
+
+    .nav__link-text {
+        display: none;
+    }
+
+    .nav__link-icon {
+        display: inline;
+    }
+}
+
+/* Main */
+.main {
+    margin: 3rem 0 0 0;
+}
+
+@media only screen and (min-width: 1920px) {
+    .main {
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        margin: 2rem 0 0 0;
+    }
+}
+
+/* Banner */
+.banner {
+    background: #ffd600;
+    height: 94vh;
+}
+
+.slogan {
+    color: #252020;
+    font-family: "BuenoNeue", sans-serif;
+    font-size: 1.74rem;
+    font-weight: 1000;
+
+    margin: 0 2rem;
+}
+
+.banner__mouse-scroll {
+    position: absolute;
+    bottom: 4rem;
+    left:50%;
+    margin-left: -28.5px;
+}
+
+@media only screen and (min-width: 1920px) {
+    .banner {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner__logo {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        height: auto;
+    }
+
+    .banner__logo {
+        width: 90%;
+    }
+
+    .banner__slogan {
+        font-size: 1rem;
+    }
+
+    .banner__mouse-scroll {
+        display: none;
+    }
+}
+
+/* Mission */
+.mission {
+
+}
+
+.mission__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission__image {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+}
+
+.mission__text {
+    display: inline-block;
+    letter-spacing: 0.2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Products */
+.products {
+    background: #ffd600;
+}
+
+.products__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: #252020;
+    border-radius: 1rem;
+    width: 26%;
+    min-width: 20rem;
+
+    justify-content: center;
+    align-content: space-around;
+}
+
+.products__name {
+    text-align: center;
+}
+
+.product__icon {
+    width: 90%;
+}
+
+.products__description {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Employees */
+.employees {
+
+}
+
+.employees__content {
+
+}
+
+.employees__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.employees__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 35%;
+    min-width: 20rem;
+
+    background: #ffd600;
+    border-radius: 1rem;
+}
+
+.employees__name {
+    text-align: center;
+}
+
+.employees__image {
+    width: 90%;
+    filter: grayscale(100%);
+    z-index: 0;
+    border-radius: 1rem;
+}
+
+.employees__role {
+    text-align: center;
+}
+
+/* Contacts */
+.contacts {
+
+}
+
+.contacts__content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer__copyright {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .contacts__content {
+        wr
+    }
+}

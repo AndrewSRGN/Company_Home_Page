@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Archivo";
+    src: url("../fonts/Archivo/Archivo-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue/BebasNeue-Regular.ttf") format("truetype");
+}

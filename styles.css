@@ -1,0 +1,49 @@
+/*Universal Styles*/
+html {
+    font-family: "Archivo", sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background: #ffd600;
+}
+
+/* LOGO */
+.logo {
+    width: 100px;
+}
+
+.logo--big {
+    width: 1024px;
+}
+
+/* NAV */
+.nav {
+    color: aqua;
+}
+
+.nav__item {
+    display: inline;
+    margin: 0 1rem;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    background-color: #252020;
+    height: 50px;
+}
+
+.header__content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+
